@@ -102,7 +102,7 @@ namespace StarterAssets
 		private void Update()
 		{		
 			if(Target != null)
-            {
+            		{
 				thisAgent.SetDestination(Target.position);
 			}
 
@@ -140,7 +140,7 @@ namespace StarterAssets
 		private void Move(Vector3 AgentDesitination, float AgentSpeed)
 		{
 			if(AgentSpeed > 0f)
-            {
+            		{
 				// a reference to the players current horizontal velocity
 				float currentHorizontalSpeed = new Vector3(_controller.velocity.x, 0.0f, _controller.velocity.z).magnitude;
 
@@ -180,8 +180,8 @@ namespace StarterAssets
 				_animator.SetFloat(_animIDSpeed, _animationBlend);
 				_animator.SetFloat(_animIDMotionSpeed, theMagnitude);
 
-            } else
-            {
+            		} else
+            		{
 				_animationBlend = Mathf.Lerp(_animationBlend, 0f, Time.deltaTime * SpeedChangeRate);
 				_animator.SetFloat(_animIDSpeed, _animationBlend);
 				_animator.SetFloat(_animIDMotionSpeed, 1f);
