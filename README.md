@@ -15,7 +15,7 @@ The modified version of ThirdPersonController to control AI Characters using thi
 - Hit Play.
 
 You can access ThirdPersonControllerAI using
-myAI = GetComponent<ThirdPersonControllerAI>();
+myAI = GetComponent\<ThirdPersonControllerAI\>();
 myAI.Target myAI.Sprinting myAI.Jump
 
 Removed null checks, not tested thoroughly, use it at your own risk.
