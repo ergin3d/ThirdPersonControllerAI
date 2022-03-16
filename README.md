@@ -1,5 +1,6 @@
 # ThirdPersonControllerAI
 The modified version of ThirdPersonController to control AI Characters using third person controller provided by Unity.
+Video : https://www.youtube.com/watch?v=x4TwKOVMfnk
 - Start A New Project from Unity Hub and Select Core / Third Person
 - Open PlayGround from Scenes (if it is not already open)
 - Delete big Ground from the Scene (Environment > Greybox > Primitives > Ground)
