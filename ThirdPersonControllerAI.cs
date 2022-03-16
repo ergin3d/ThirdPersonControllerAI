@@ -3,7 +3,7 @@ using UnityEngine.AI;
 
 // The modified version of ThirdPersonController to control AI Characters using third person controller provided by Unity.
 // Removed null checks, not tested thoroughly, use it at your own risk.
-// Waypoints, Chase Enemy, Meele and Ranged Attack are being implemented.
+// Waypoints, Chase Enemy, Melee and Ranged Attack are being implemented.
 // ergin3d.com
 
 namespace StarterAssets
