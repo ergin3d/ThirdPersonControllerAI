@@ -2,7 +2,8 @@
 The modified version of ThirdPersonController to control AI Characters using third person controller provided by Unity.
 - Start A New Project from Unity Hub and Select Core / Third Person
 - Open PlayGround from Scenes (if it is not already open)
-- Delete big Ground from the Scene (Environment > Primitives > Ground)
+- Delete big Ground from the Scene (Environment > Greybox > Primitives > Ground)
+- Add Box Collider to Ground_Mesh (Environment > Greybox > Primitives > Ground_Mesh)
 - Open Navigation tab (Windows > AI > Navigation)
 - Select Bake Tab and Hit Bake. (Make sure all the Environment GameObjects are set to Navigation Static
 - Select PlayerFollowCamera, UI_EventSystem, UI_Canvas_Starter, MainCamera, and Delete.
