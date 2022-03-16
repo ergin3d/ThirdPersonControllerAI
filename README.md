@@ -11,6 +11,7 @@ The modified version of ThirdPersonController to control AI Characters using thi
 - Select PlayerArmature
 - Remove ThirdPersonController, BasicRigidBodyPush, StarterAssetsInputs, PlayerInput.
 - Add NavMeshAgent
+- Change NavMeshAgent's Base Offset to -0.05 or -0.08
 - Add ThirdPersonControllerAI Script
 - Set Ground Layers to Everything
 - Add an (empty) GameObject and Set ThirdPersonControllerAI's target to it.
