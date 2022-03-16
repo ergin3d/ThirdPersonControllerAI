@@ -137,7 +137,7 @@ namespace StarterAssets
 			_animator.SetBool(_animIDGrounded, Grounded);
 		}
 
-		private void Move(Vector3 AgentDesitination, float AgentSpeed)
+		private void Move(Vector3 AgentDestination, float AgentSpeed)
 		{
 			if(AgentSpeed > 0f)
             		{
@@ -165,7 +165,7 @@ namespace StarterAssets
 				// rotate player when the player is moving
 				if (_speed != 0f)
 				{
-					_targetRotation = Mathf.Atan2(AgentDesitination.x, AgentDesitination.z) * Mathf.Rad2Deg;
+					_targetRotation = Mathf.Atan2(AgentDestination.x, AgentDestination.z) * Mathf.Rad2Deg;
 					float rotation = Mathf.SmoothDampAngle(transform.eulerAngles.y, _targetRotation, ref _rotationVelocity, RotationSmoothTime);
 					transform.rotation = Quaternion.Euler(0.0f, rotation, 0.0f);
 				}
